@@ -1,4 +1,19 @@
 $bg-color: pink;
+$text-color: black;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
- background: $bg-color;
+    font-family: 'Roboto', sans-serif;
+    background: url('../img/bg-brick.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $text-color;
+}
+
+h1 {
+    margin-inline: auto;
 }
